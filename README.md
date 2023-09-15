@@ -53,7 +53,7 @@ You can interact with the Online Bookstore using the following endpoints:
 
 ## Messaging with RabbitMQ
 
-The Online Bookstore project uses RabbitMQ for messaging. When a new order is placed using the `/order` endpoint, a message is sent to the "Order Processing Service" via RabbitMQ. Ensure that the "Order Processing Service" is set up to listen for and process these messages.
+The Online Bookstore project uses RabbitMQ for messaging. When a new order is placed using the `/order` endpoint, a message is sent to the "Order Processing Service" via RabbitMQ. The "Order Processing Service" is set up to listen for and process these messages.
 
 ## Contact
 
